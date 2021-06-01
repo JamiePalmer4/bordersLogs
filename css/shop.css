@@ -8,15 +8,6 @@
     padding-top: 10px;
 }
 
-@media (max-width: 300px)
-{
-    .logo-size
-    {
-        width: 250px;
-        height: 100px;
-    }
-}
-
 .navbar-nav{
     font-size: 2em;
     font-family: 'Lexend', sans-serif;
