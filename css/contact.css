@@ -7,6 +7,14 @@
     padding-top: 10px;
 }
 
+@media (max-width: 640px)
+{
+    .logo-size
+    {
+        width: 600px;
+    }
+}
+
 .navbar-nav{
     font-size: 2em;
     font-family: 'Lexend', sans-serif;

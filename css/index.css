@@ -6,6 +6,15 @@
 .logo-size{
     text-align: center;
     padding-top: 10px;
+    max-width: 100%;
+}
+
+@media (max-width: 640px)
+{
+    .logo-size
+    {
+        width: 600px;
+    }
 }
 
 .navbar-nav{
