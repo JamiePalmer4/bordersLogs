@@ -11,7 +11,7 @@
 {
     .logo-size
     {
-        width: 600px;
+        width: 414px;
     }
 }
 
@@ -32,14 +32,6 @@
     text-align: center;
 }
 
-@media (max-width: 640px)
-{
-    .card
-    {
-        
-
-    }
-}
 
 .container-environment{
     margin-top: 25px;
