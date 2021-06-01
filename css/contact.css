@@ -1,7 +1,7 @@
 .site-header{
     background: #fffffe;
+    max-width: 100%;
 }
-
 .logo-size{
     text-align: center;
     padding-top: 10px;
