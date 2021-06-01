@@ -1,0 +1,188 @@
+.site-header{
+    background: #fffffe;
+}
+
+
+.logo-size{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar-nav{
+    font-size: 2em;
+    font-family: 'Lexend', sans-serif;
+    color: #08d30e;   
+}
+
+.navbar-toggler-icon{
+    text-align: center;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.carousel-item {
+    height: 600px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: inherit;
+}
+
+@media (max-width: 640px)
+{
+    .carousel-item{
+        height: 200px;
+    }
+}
+
+#container-main{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+
+
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+#myLine{
+    display: block;
+}
+
+@media (max-width: 640px) 
+{
+    #myLine
+    {
+        display: none;
+    }
+}
+
+
+.page-section-title{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.page-section-text-main{
+    font-size: 4em;
+    margin-top: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+.page-section-text{
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.btn{
+    background-color:green;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+#container-faq{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+#myFav{
+    display:flex;
+}
+
+@media (max-width: 640px) 
+{
+    #myFav
+    {
+        display: none;
+    }
+}
+
+.profile{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+.profile:hover{opacity:0.9;}
+
+.container-profile{
+    background-color:#50C878;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-section-title-profile{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    font-size: 2.3em;
+    padding-top: 20px;
+}
+
+.page-section-text-profile{
+    font-size: 1.7em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 40px;
+}
+
+.page-section-title-contact{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-top: 5px;
+}
+
+.page-section-title-copyright{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+
+
+/*--Footer--*/
+.page-footer{
+    background-color: #50C878;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2em;
+}
+.page-section-title-footer{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    margin-top: 5px;
+}  
+    
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
