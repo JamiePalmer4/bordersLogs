@@ -13,7 +13,8 @@
 {
     .logo-size
     {
-        width: 414px;
+        width: 100%;
+        height: auto;
     }
 }
 
