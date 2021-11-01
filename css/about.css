@@ -1,0 +1,107 @@
+.site-header{
+    background: #fffffe;
+    max-width: 100%;
+}
+.logo-size{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar-nav{
+    font-size: 2em;
+    font-family: 'Lexend', sans-serif;
+    color: #50C878;
+    margin-top: 0;
+}
+
+.page-section-title{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+}
+
+.page-section-text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.container-title{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+
+.container-about, .container-more{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #50C878; 
+}
+
+.page-section-title-about, .page-section-title-more{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+@media (max-width: 640px)
+{
+    #myImage
+    {
+        margin-top: 40px;
+    }
+    
+    #imageID
+    {
+        margin-top: 40px;
+    }
+    
+}
+
+.container-speech{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.page-section-title-speech{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+/*--Footer--*/
+.page-footer{
+    background-color: #50C878;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2em;
+}
+    
+    
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
