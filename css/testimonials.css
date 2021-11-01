@@ -17,6 +17,7 @@
 .page-section-title{
     font-family: 'Dosis', sans-serif;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .page-section-text{
@@ -25,7 +26,35 @@
     text-align: center;
 }
 
+.container-title{
+    margin-top: 20px;
+    font-size: 50px;
+}
 
+.container-background{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #50C878;
+}
+
+.page-section-title-jim,.page-section-title-ian,.page-section-title-catherine{
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.page-section-text-jim,.page-section-text-ian,.page-section-text-catherine{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.container-white{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 /*--Footer--*/
 .page-footer{
